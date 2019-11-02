@@ -27,12 +27,7 @@ main {
 .grid-view div.card.ui {
   margin: 1.25rem;
 }
-/*
-.main-img {
-  display: block;
-  border-radius: 100%;
-  margin: 0 auto;
-} */
+
 
 header h1 {
   text-align: center;
@@ -59,17 +54,9 @@ header h1 {
   display: block;
   margin:  auto;
 }
-.nav {
-  text-align: center;
-}
+
 .search {
   display: flex;
   justify-content: center;
 }
-.character-list {
-  display: flex;
-  flex-flow: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-top: 10px;
-}
+
