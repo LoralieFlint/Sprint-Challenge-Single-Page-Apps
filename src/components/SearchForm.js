@@ -13,16 +13,16 @@ export default function SearchForm() {
     console.log(search);
   };
   return (
-    <section className="search-form">
+    <section className="search">
       <form onSubmit={event => handleSubmit(event)}>
-        <input
+        <input className="search-form"
           placeholder="name"
           value={search.name}
           name="name"
           type="text"
           onChange={handleChange}
         />
-        <button type="submit">Search</button>
+        <button className="button" type="submit">Search</button>
       </form>
     </section>
   );

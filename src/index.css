@@ -37,3 +37,32 @@ main {
 header h1 {
   text-align: center;
 }
+.ui-center {
+  font-size: 50px;
+}
+.home {
+  font-size: 18px;
+  margin: 15px;
+}
+.characters {
+  font-size: 18px;
+  margin: 15px;
+}
+.search-form {
+  padding: 5px;
+  margin: 15px 15px 5px 15px;
+}
+.button {
+  padding: 5px;
+}
+.main-img {
+  display: block;
+  margin:  auto;
+}
+.nav {
+  text-align: center;
+}
+.search {
+  display: flex;
+  justify-content: center;
+}
