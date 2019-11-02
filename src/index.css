@@ -66,3 +66,10 @@ header h1 {
   display: flex;
   justify-content: center;
 }
+.character-list {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 10px;
+}

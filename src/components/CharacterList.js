@@ -17,7 +17,7 @@ export default function CharacterList() {
 
   return (
     <section className="character-list">
-      <div>
+      <div className="character-list">
         {Array.from(character).map(char => {
           return (
             <CharacterCard
